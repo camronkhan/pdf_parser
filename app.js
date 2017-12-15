@@ -1,7 +1,7 @@
 const express = require('express');
 const multer = require('multer');
 const path = require('path');
-// const pdf2json = require('pdf2json');
+const pdf2json = require('pdf2json');
 
 // Set storage engine
 const storage = multer.diskStorage({
